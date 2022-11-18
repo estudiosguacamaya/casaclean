@@ -1,0 +1,95 @@
+/* =========== GOOGLE FONTS ========= */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fuzzy+Bubbles:wght@700&family=Merriweather+Sans&family=Montserrat:ital,wght@1,500&family=Roboto:ital@1&display=swap");
+
+:root {
+  --black-letters-color: #2b303a;
+  --blue-primary-color: #2f80ed;
+  --white-color: #ffffff;
+  --body-color:#F4F4F9;
+  --blue-secondary-color:#34495E;
+}
+
+* {
+  font-family: "Merriweather Sans", sans-serif;
+}
+/* Sections Header
+--------------------------------*/
+
+.section-header h3 {
+    font-size: 36px;
+  
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-top: 30px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+  
+    width: 50%;
+  }
+  .section-header2 p {
+    text-align:left;
+    margin: auto;
+    font-size: 15px;
+  padding: 2.5rem;
+  color: var(--white-color);
+    background-color:var(--blue-primary-color);
+    border-radius: 10px;
+
+  }
+  
+  
+  
+  
+  /* Frequently Asked Questions Section
+  --------------------------------*/
+  
+  #faq {
+    padding-top: 5rem;
+    overflow: hidden;
+  }
+
+ 
+  
+  #faq #faq-list {
+    padding: 2rem 0rem;
+    list-style: none;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+  }
+  
+ 
+  
+  #faq #faq-list a {
+    padding: 25px 10px;
+    display: block;
+    position: relative;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.1rem;
+    padding-right: 20px;
+    color: var(--black-letters-color);
+ 
+  }
+
+  .punto{
+    color: var(--white-color);
+  }
+  
+  #faq #faq-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+  
+  #faq #faq-list p {
+    margin-bottom: 20px;
+    background-color: var(--blue-primary-color);
+  }
